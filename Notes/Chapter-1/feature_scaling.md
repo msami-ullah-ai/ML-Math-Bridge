@@ -36,13 +36,7 @@ Feature scaling makes all features operate on similar ranges so that no feature 
 
 A common method is **standardization**, using this formula:
 
-\[
-x_{scaled} = \frac{x - \mu}{\sigma}
-\]
-
-where:
-- \( \mu \) = mean of the feature  
-- \( \sigma \) = standard deviation of the feature  
+(x − μ) / σ
 
 where:
 - μ = mean of the feature
