@@ -1,5 +1,9 @@
 # Study Notes
 
-This folder contains my personal study notes on the mathematics behind machine learning.
+This section contains structured notes on the mathematical foundations
+of machine learning.
 
-Chapters are organized by topic and build from fundamentals to advanced concepts.
+The material is organized sequentially, with emphasis on:
+- formal definitions
+- geometric and algebraic intuition
+- relevance to machine learning algorithms
