@@ -73,9 +73,25 @@ That means:
 If we take any vectors from U and add them or scale them,  
 the result must stay inside U.
 
-### Trivial Subspaces
-- {0} (just the origin)
-- V itself
+## Trivial Subspaces
 
-### Proper Subspace
-Any subspace smaller than V but not {0}.
+- **{0} (Zero subspace)**  
+  Contains only the zero vector.  
+  It represents no direction and has zero size.
+
+- **V (The whole vector space)**  
+  Contains all vectors of the space.  
+  Every vector space is a subspace of itself.
+
+These subspaces always exist for any vector space, which is why they are called *trivial*.
+
+## Proper Subspace
+
+- A **proper subspace** is any subspace that is:
+  - smaller than the full vector space `V`
+  - not equal to `{0}`
+
+- It contains some vectors of `V`, but not all of them.
+
+**Intuition:**  
+A line or plane inside a higher-dimensional vector space.
