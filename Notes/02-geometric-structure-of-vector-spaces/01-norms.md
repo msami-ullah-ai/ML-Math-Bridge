@@ -1,192 +1,328 @@
-## Geometry intuition of vector space
+# Geometry intuition of vector spaces
 
 Vectors can be represented as **points in space** using geometry (plots).
 
-Even without labels on data points, by **seeing the distance between different clusters**, we can guess that they belong to **different classes**.
+Even without labels on data points, by **looking at distances between clusters**, we can often guess that they belong to different classes.
+This geometric idea is the foundation of many machine learning algorithms.
+
+To talk about *length*, *distance*, and *geometry*, we need the concept of a **norm**.
 
 ---
 
-## Norm
+## Norm (idea)
 
-A **norm** is a measure of **vector length**.
+A **norm** is a measure of the **size or length of a vector**.
 
-* Norm tells the **size or length of a vector**
-* It is written as:
-||x||
+* Norm tells *how big* a vector is
+* It is written as: `||x||`
+* Length can never be negative
+
+---
+
+## Norm (formal definition)
+
+A norm is a **function** that:
+
+* takes a vector from a vector space
+* returns a **non-negative real number**
+
+Mathematically:
+
+```
+|| · || : V → [0, ∞)
+```
+
+---
+
+## Properties of a norm
+
+A function is called a **norm** if it satisfies the following properties:
+
+### 1. Positive definiteness
+
+```
+||x|| ≥ 0
+||x|| = 0  ⇔  x = 0
+```
+
+Length cannot be negative, and only the **zero vector** has zero length.
+
+---
+
+### 2. Positive homogeneity (scaling property)
+
+```
+||αx|| = |α| ||x||
+```
+
+Scaling a vector scales its length by the **same absolute factor**.
+
+Example:
+If `||x|| = 5`, then `||-3x|| = 15`
+
+---
+
+### 3. Triangle inequality
+
+```
+||x + y|| ≤ ||x|| + ||y||
+```
+
+This means the **shortest path** between two points is a **straight line**.
 
 ---
 
 ## Distance between two vectors
 
-Distance between two vectors is defined as the **norm of their difference**.
+Distance between two vectors is defined using a norm.
 
-Distance between two vectors = || X-Y ||
+```
+Distance(x, y) = ||x − y||
+```
 
-This is a **generalization of the hypotenuse concept**.
-
----
-
-## Euclidean Norm (L2 Norm)
-
-Euclidean norm is the **most commonly used norm**.
-
-For a vector
-For a vector $x = (x_1, x_2, \dots, x_n)$
-
-$|x| = \sqrt{x_1^2 + x_2^2 + \dots + x_n^2}$
-
+This is a **generalization of the hypotenuse concept** from geometry.
 
 ---
 
-### Euclidean Norm in Different Dimensions
+## Euclidean norm (L2 norm)
 
-- **2D norm**
+The **Euclidean norm** is the most commonly used norm.
 
-$$
-|x| = \sqrt{x_1^2 + x_2^2}
-$$
+For a vector:
 
-- **3D norm**
+```
+x = (x₁, x₂, …, xₙ)
+```
 
-$$
-|x| = \sqrt{x_1^2 + x_2^2 + x_3^2}
-$$
+The L2 norm is:
 
----
+```
+||x||₂ = √(x₁² + x₂² + … + xₙ²)
+```
 
-## Meaning of Euclidean Norm
+### In different dimensions
 
-Euclidean norm gives the **length of a vector from the origin**.
+* **2D**
 
-* It measures the **shortest distance**
-* It represents the **actual length of the vector**
-* It is different from Manhattan distance
+```
+||x||₂ = √(x₁² + x₂²)
+```
 
----
+* **3D**
 
-## Manhattan Norm (L1 Norm)
-
-Manhattan norm is also called **L1 norm**.
-
-It measures distance by **moving along coordinate axes** and is also known as **city block distance**.
+```
+||x||₂ = √(x₁² + x₂² + x₃²)
+```
 
 ---
 
-### Definition
+### Meaning of L2 norm
 
-For a vector  
+* Gives length of the vector from the **origin**
+* Measures **straight-line distance**
+* Represents the **actual geometric length**
+* Most commonly used in ML
 
-x = (x_1, x_2 ...., x_n)
+Used in:
 
-the **Manhattan (L1) norm** is defined as:
-
-$$
-\|x\|_1 = |x_1| + |x_2| + \dots + |x_n|
-$$
-
----
-
-## Manhattan Distance
-
-The Manhattan distance between two vectors is the **L1 norm of their difference**.
-
-For vectors \(x\) and \(y\):
-
-$$
-d_1(x, y) = \|x - y\|_1
-$$
-
-$$
-d_1(x, y) = |x_1 - y_1| + |x_2 - y_2| + \dots + |x_n - y_n|
-$$
+* Gradient Descent
+* Loss functions
+* Neural Networks
 
 ---
 
-## Comparison with Euclidean Norm
+## Manhattan norm (L1 norm)
 
-- **L1 norm (Manhattan norm)** measures distance by **horizontal and vertical movements**
-- **L2 norm (Euclidean norm)** measures the **straight-line distance**
-- Manhattan distance is **not the shortest distance**
-- Euclidean distance is the **shortest distance**
+The **Manhattan norm** (or L1 norm) measures distance by moving **along coordinate axes**.
 
----
+```
+||x||₁ = |x₁| + |x₂| + … + |xₙ|
+```
 
-## When Manhattan Norm is Useful
-
-- When movement is **restricted to axes**
-- In grid-based problems
-- In machine learning for **sparse data**
-- Used in **L1 regularization** to promote sparsity
+It is also called **city-block distance**.
 
 ---
 
-## Properties of a Norm
+### Manhattan distance between two vectors
 
-A function $\|\cdot\|$ is called a **norm** if it satisfies the following properties:
-
-### 1. Non-negativity
-
-$$
-\|x\| \ge 0
-$$
+```
+d₁(x, y) = ||x − y||₁
+         = |x₁ − y₁| + |x₂ − y₂| + … + |xₙ − yₙ|
+```
 
 ---
 
-### 2. Zero Vector Property
+### Comparison: L1 vs L2
 
-$$
-\|x\| = 0 \iff x = 0
-$$
+* **L1 norm**:
 
----
+  * Horizontal + vertical movement
+  * Encourages sparsity
+* **L2 norm**:
 
-### 3. Triangle Inequality
+  * Straight-line distance
+  * Smooth and stable learning
 
-$$
-\|x + y\| \le \|x\| + \|y\|
-$$
-
----
-
-## Norm of Difference of Two Vectors
-
-The norm of difference of two vectors is:
-
-$$
-\|x - y\| = \sqrt{(x_1 - y_1)^2 + (x_2 - y_2)^2 + \dots + (x_n - y_n)^2}
-$$
-
-This value represents the **distance between two vectors**.
+Euclidean distance is shortest in **continuous space**,
+Manhattan distance is shortest when movement is **restricted to axes**.
 
 ---
 
-## Distance Function
+### When L1 norm is useful
 
-Distance function is defined as:
+* Many features are irrelevant
+* Simple model is desired
+* Feature selection matters more
 
-$$
-d(x, y) = \|x - y\|
-$$
+Used in:
+
+* **Lasso Regression**
+
+L1 basically says:
+
+> “Use only what you really need.”
 
 ---
 
-## Properties of Distance Function
+## L∞ norm (Max norm)
 
-1. **Distance is non-negative**
+The **L∞ norm** selects the **largest absolute component** of a vector.
 
-$$
-d(x, y) \ge 0
-$$
+```
+||x||∞ = max(|x₁|, |x₂|, …, |xₙ|)
+```
 
-2. **Distance is symmetric**
+It answers the question:
 
-$$
-d(x, y) = d(y, x)
-$$
+> “How bad is the worst component?”
 
-3. **Distance is zero if and only if both vectors are equal**
+### When to use
 
-$$
-d(x, y) = 0 \iff x = y
-$$
+* Worst-case error matters
+* Safety and robustness problems
+* Nothing is allowed to go out of control
+
+---
+
+## How to choose a norm
+
+* Remove features → **L1**
+* Smooth, stable learning → **L2**
+* Fear extreme values → **L∞**
+
+---
+
+## p-Norm (general norm)
+
+Different values of `p` give different norms.
+
+```
+||x||ₚ = ( Σ |xᵢ|ᵖ )^(1/p)   ,   p ∈ [1, ∞)
+```
+
+Steps:
+
+1. Take absolute value of each component
+2. Raise to power `p`
+3. Add all
+4. Take `p`-th root
+
+Special cases:
+
+* `p = 1` → L1 (Manhattan)
+* `p = 2` → L2 (Euclidean)
+* `p → ∞` → L∞ (Max norm)
+
+---
+
+## Mean Squared Error (MSE)
+
+MSE is a **loss function** used in ML.
+
+It is simply the **squared L2 norm of the error vector**, divided by number of samples.
+
+Error vector:
+
+```
+e = y − ŷ
+```
+
+MSE:
+
+```
+MSE = (1/n) Σ (errorᵢ)²
+```
+
+Meaning:
+
+1. Take L2 norm of error
+2. Square it
+3. Divide by `n`
+
+---
+
+## Norms and model complexity
+
+Let model parameters be:
+
+```
+θ = (θ₀, θ₁, θ₂, …)
+```
+
+* Large parameter norms → complex model
+* Small parameter norms → smooth model
+* Large norms often cause **overfitting**
+
+Norms help us **control model complexity**.
+
+---
+
+## Regularized loss function
+
+Final loss used in ML:
+
+```
+Loss = MSE + λ ||θ||ₚ
+```
+
+* `MSE` → prediction error
+* `||θ||ₚ` → model complexity
+* `λ` → controls strength of regularization
+* `p` → type of simplicity enforced
+
+Large parameter norm ⇒ model may overfit training data.
+
+---
+
+## Metric and norm-induced distance
+
+A **metric** defines distance between two points.
+
+When distance is defined using a norm:
+
+```
+d(x, y) = ||x − y||
+```
+
+This is called a **norm-induced metric**.
+
+It gives geometry to vector spaces.
+
+---
+
+## Final takeaway
+
+Norms help us:
+
+* Measure vector size
+* Define distance
+* Measure prediction error
+* Control model complexity
+
+Used everywhere in ML:
+
+* KNN
+* Loss functions
+* Regularization
+* Optimization
 
