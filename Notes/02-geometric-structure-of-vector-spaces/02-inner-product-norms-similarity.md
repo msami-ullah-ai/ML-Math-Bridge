@@ -11,9 +11,7 @@ Cosine tells how much two vectors point in the same direction.
 ### Formula
 
 $$
-\cos \theta
-=
-\frac{\langle x, y \rangle}{\|x\| \, \|y\|}
+\cos \theta = \frac{\langle x, y \rangle}{\|x\| \, \|y\|}
 $$
 
 Here:
@@ -71,11 +69,7 @@ Inner product is an operation defined between two vectors in a vector space that
 Take a vector with itself:
 
 $$
-\langle x, x \rangle
-=
-\|x\| \, \|x\| \cos 0
-=
-\|x\|^2
+\langle x, x \rangle = \|x\| \, \|x\| \cos 0 = \|x\|^2
 $$
 
 Since \(\cos 0 = 1\),
@@ -126,12 +120,10 @@ The dot product (inner product) of two vectors can NEVER be larger than the prod
 Mathematically:
 
 $$
-|\langle x, y \rangle|
-\le
-\|x\| \, \|y\|
+|\langle x, y \rangle| \le \|x\| \, \|y\|
 $$
 
-⚠️ This is not optional — this inequality is the key.
+This is not optional — this inequality is the key.
 
 ---
 
@@ -177,24 +169,14 @@ If I have a generated norm, can I recover the inner product?
 
 Yes.
 
-$$
-\langle x, y \rangle
-=
-\frac{1}{2}
-\left(
-\|x+y\|^2
--
-\|x\|^2
--
-\|y\|^2
-\right)
-$$
+$$ \langle x, y \rangle = \frac{1}{2}\left(\|x+y\|^2 - \|x\|^2 - \|y\|^2\right) $$
 
 **Intuition:**
 
 - Measure how long combined vector is  
 - Remove individual parts  
-- Remaining term is interaction (inner product)  
+- Remaining term is interaction (inner product)
+
 
 ---
 
@@ -246,11 +228,7 @@ More orthogonality → more new information
 In inner product space, two vectors are orthogonal exactly when the squared length of their sum equals the sum of their squared lengths.
 
 $$
-\|x+y\|^2
-=
-\|x\|^2
-+
-\|y\|^2
+\|x+y\|^2 = \|x\|^2 + \|y\|^2
 $$
 
 ---
@@ -263,9 +241,7 @@ Two vectors are similar if:
 - angle between them is small  
 
 $$
-\text{Similarity}(x,y)
-=
-\frac{x \cdot y}{\|x\| \, \|y\|}
+\text{Similarity}(x,y) = \frac{x \cdot y}{\|x\| \, \|y\|}
 $$
 
 This combines all coordinate contributions.
