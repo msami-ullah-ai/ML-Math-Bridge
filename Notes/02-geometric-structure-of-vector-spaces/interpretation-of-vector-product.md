@@ -101,27 +101,40 @@ $$
 
 ---
 
-## Projection Formula (Final Result)
+## 7. Projection Formula (Final Result)
 
-$$
-\text{proj}_y(x)
-=
-\frac{\langle x, y \rangle}{\langle y, y \rangle}\,y
-$$
+The projection of vector **x** onto vector **y** is:
 
-**Projection formula (important result).**
+```
+proj_y(x) = ( <x, y> / <y, y> ) · y
+```
 
-### Meaning of Each Term
+---
 
-- \( \langle x, y \rangle \)  
+## Meaning of Each Term
+
+- `<x, y>`  
+  Inner (dot) product of **x** and **y**  
   Measures how much **x** points in the direction of **y**
 
-- \( \langle y, y \rangle = \|y\|^2 \)  
-  Represents the squared length of **y**
+- `<y, y>`  
+  Inner product of **y** with itself  
+  Equal to the square of the length of **y**
 
-- Division  
-  Ensures correct scaling so the projection lies exactly on **y**
+- `( <x, y> / <y, y> )`  
+  A scalar that tells how much of **y** is contained in **x**
 
+- `· y`  
+  Scales vector **y** so the projection lies exactly along **y**
+
+---
+
+## Intuitive Meaning
+
+- Take the part of **x** that points in the direction of **y**
+- Remove everything perpendicular to **y**
+- What remains is the projection of **x** onto **y**
+**y**
 
 
 ---
@@ -145,14 +158,15 @@ This geometric idea naturally extends to:
 
 For non-zero vectors **x** and **y**, the inner product can be written as:
 
-\[
-\langle x, y \rangle = \|x\|\,\|y\|\,\cos\theta
-\]
+```
+<x, y> = |x| · |y| · cos(theta)
+```
 
 This shows that the inner product simultaneously captures:
-- **vector magnitudes**
-- **angle between vectors**
-- **degree of alignment**
+
+- vector magnitudes  
+- angle between vectors  
+- degree of alignment  
 
 ---
 
@@ -160,16 +174,16 @@ This shows that the inner product simultaneously captures:
 
 If we normalize both vectors:
 
-\[
-\hat{x} = \frac{x}{\|x\|}, \quad
-\hat{y} = \frac{y}{\|y\|}
-\]
+```
+x̂ = x / |x|,    ŷ = y / |y|
+```
 
 then the inner product becomes:
 
-\[
-\cos\theta = \langle \hat{x}, \hat{y} \rangle
-\]
+```
+cos(theta) = <x̂, ŷ>
+```
+
 
 ### Interpretation
 
