@@ -47,45 +47,32 @@ This repo tracks that journey from a **student’s perspective**.
 
 ---
 
-## ✅ Content Covered So Far
-
-### 🟦 Part I — Vector Spaces (Foundations)
-
-* Feature scaling intuition
-* Vectors as data
-* Vector spaces & subspaces
-* Linear combinations
-* Span
-* Bases (including trivial vs proper subspaces)
-
-### 🟦 Part II — Geometric Structure of Vector Spaces
-
-* Norms & distances
-* Inner products & angles
-* Similarity interpretation
-* Orthogonal & orthonormal bases
-* Gram–Schmidt process
-
-📌 These topics form the **core geometry behind ML models**, PCA, projections, and optimization.
-
----
-
-## 🗂 Repository Structure
+## 🗂 Repository Structure So Far
 
 ```
-Notes/
+📁 Repository Structure
+.
+├── README.md
+│
 ├── 01-vector-spaces/
-│   ├── vectors_and_data
-│   ├── vector_spaces
-│   ├── linear_combinations
-│   ├── span
-│   └── bases
+│   ├── 01-feature-scaling-intuition.md
+│   ├── 02-vectors-and-data.md
+│   ├── 03-vector-spaces.md
+│   ├── 04-linear-combinations.md
+│   ├── 05-span.md
+│   ├── 06-bases.md
+│   └── ML-Intuition-and-Applications.md
 │
 ├── 02-geometric-structure-of-vector-spaces/
-│   ├── norms
-│   ├── inner_products
-│   ├── orthogonality
-│   └── gram_schmidt
+│   ├── 01-norms.md
+│   ├── 02-inner-product-norms-similarity.md
+│   ├── 03-interpretation-of-vector-products.md
+│   ├── 04-orthogonal-and-orthonormal-bases.md
+│   ├── 05-gram-schmidt-process.md
+│   └── ML-Intuition-and-Applications.md
+│
+├── 03-Linear-Algebra-in-Practice/
+│   └── 01-numpy-vectors-and-geometric-structure.md
 ```
 
 Each file focuses on:
