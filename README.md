@@ -51,6 +51,7 @@ This repo tracks that journey from a **student’s perspective**.
 
 ```
 📁 Repository Structure
+
 .
 ├── README.md
 │
@@ -72,7 +73,11 @@ This repo tracks that journey from a **student’s perspective**.
 │   └── ML-Intuition-and-Applications.md
 │
 ├── 03-Linear-Algebra-in-Practice/
-│   └── 01-numpy-vectors-and-geometric-structure.md
+│   ├── 01-numpy-vectors-and-geometry.md
+│   └── 02-matrices-and-matrix-operations.md
+│
+├── 04-linear-transformations/
+│   └── 01-linear-transformations-intuition-and-matrix.md
 ```
 
 Each file focuses on:
