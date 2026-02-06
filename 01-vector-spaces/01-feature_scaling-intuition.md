@@ -10,7 +10,7 @@ After training, the model becomes a **trained model** with optimized parameters,
 
 ### What is Feature Scaling?
 
-**Feature scaling** is the process of adjusting input features so that no single feature dominates the learning process due to its scale.
+**Feature scaling** is the process of adjusting input features so that no single feature dominates the learning process due to its scale. It ensures fair comparison by placing all features on a common scale.
 
 It helps:
 - Prevent the model from becoming biased toward large-magnitude features
