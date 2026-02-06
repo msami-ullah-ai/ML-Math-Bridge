@@ -1,8 +1,23 @@
-# Feature Scaling
+## Feature Scaling
 
-Feature scaling means adjusting features in such a way that the model does not become biased toward specific ones.
+### What is a Machine Learning Model?
 
-It prevents the learning algorithm from being fooled by large numbers and forces it to learn the true importance of each feature.
+A **machine learning model** is a mathematical function that we train by feeding it data.  
+During training, the model automatically adjusts its internal parameters using a learning algorithm to reduce prediction error.
+After training, the model becomes a **trained model** with optimized parameters, which is then used on **new (unseen) data** to make predictions.
+
+---
+
+### What is Feature Scaling?
+
+**Feature scaling** is the process of adjusting input features so that no single feature dominates the learning process due to its scale.
+
+It helps:
+- Prevent the model from becoming biased toward large-magnitude features
+- Improve training stability and convergence
+- Ensure the algorithm learns the true importance of each feature
+
+---
 
 Without scaling:
 - Learning becomes unstable  
