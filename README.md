@@ -72,12 +72,19 @@ This repo tracks that journey from a **student’s perspective**.
 │   ├── 05-gram-schmidt-process.md
 │   └── ML-Intuition-and-Applications.md
 │
-├── 03-Linear-Algebra-in-Practice/
+├── 03-linear-algebra-in-practice/
 │   ├── 01-numpy-vectors-and-geometry.md
 │   └── 02-matrices-and-matrix-operations.md
 │
 ├── 04-linear-transformations/
-│   └── 01-linear-transformations-intuition-and-matrix.md
+│   ├── 01-linear-transformations-intuition-and-matrix.md
+│   ├── 02-invertible-linear-transformations.md
+│   ├── 03-linear-transformations-in-euclidean-plane.md
+│   ├── 04-stretching-rotation-shearing.md
+│   ├── 04-reflection.md
+│   ├── 05-how-linear-transformations-scale-area.md
+│   └── 06-determinants-area-and-orientation.md
+
 ```
 
 Each file focuses on:
