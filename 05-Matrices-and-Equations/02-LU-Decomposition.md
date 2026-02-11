@@ -56,13 +56,13 @@ For each pivot column `k`:
 
    For each row `i` below the pivot row:
 m(i,k) = U[i,k] / U[k,k]
-Copy code
 
-2. **Use the multiplier to eliminate the entry below the pivot**
+
+3. **Use the multiplier to eliminate the entry below the pivot**
 
 Update row `i` as:
 R_i ← R_i − m(i,k) · R_k
-Copy code
+
 
 3. **Store the multiplier in L**
 
