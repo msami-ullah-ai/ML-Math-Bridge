@@ -49,19 +49,26 @@ where:
 - Set \(L = I\) (identity matrix)
 
 ### Step 2: Elimination
-For each pivot column:
-1. Compute the multiplier  
-   \[
-   m_{ik} = \frac{U_{ik}}{U_{kk}}
-   \]
-2. Use it to eliminate the entry below the pivot:
-   \[
-   R_i \leftarrow R_i - m_{ik} R_k
-   \]
-3. Store the multiplier in \(L\):
-   \[
-   L_{ik} = m_{ik}
-   \]
+
+For each pivot column `k`:
+
+1. **Compute the multiplier**
+
+   For each row `i` below the pivot row:
+m(i,k) = U[i,k] / U[k,k]
+Copy code
+
+2. **Use the multiplier to eliminate the entry below the pivot**
+
+Update row `i` as:
+R_i ← R_i − m(i,k) · R_k
+Copy code
+
+3. **Store the multiplier in L**
+
+Save the multiplier in the lower triangular matrix:
+L[i,k] = m(i,k)
+
 
 ### Step 3: Finish
 - After all eliminations:
