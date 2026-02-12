@@ -21,7 +21,7 @@ LU decomposition provides a **safe and efficient way to solve \(Ax=b\)** without
 
 ---
 
-## 2. What LU Decomposition Is (Paper Intuition)
+## 2. What LU Decomposition Is 
 
 LU decomposition is nothing more than **Gaussian elimination written in a structured way**.
 
