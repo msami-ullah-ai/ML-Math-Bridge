@@ -1,4 +1,4 @@
-# LU Decomposition (Intuition → Math → Practice)
+# LU Decomposition 
 
 ## 1. Why LU Decomposition Exists
 
