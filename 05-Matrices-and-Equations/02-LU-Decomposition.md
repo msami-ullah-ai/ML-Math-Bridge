@@ -42,7 +42,7 @@ where:
 
 ---
 
-## 3. How L and U Are Built (Exactly Like on Paper)
+## 3. How L and U Are Built 
 
 ### Step 1: Initialize
 - Set \(U = A\)
