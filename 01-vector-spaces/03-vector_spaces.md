@@ -73,7 +73,7 @@ So ML is really **learning inside vector spaces**.
 
 ---
 
-## Final Definition (In Simple Words)
+## Final Definition 
 
 A vector space is a dimensional space where:
 - vectors (data points) live
