@@ -38,7 +38,7 @@ So think of it like this:
 
 ---
 
-## What does a Linear Transformation REALLY do?
+## What does a Linear Transformation Really do?
 
 A linear transformation does **not** move points one by one.
 
