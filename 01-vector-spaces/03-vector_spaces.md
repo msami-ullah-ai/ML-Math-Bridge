@@ -51,7 +51,7 @@ This means moving the point.
 
 ### Scalar Multiplication
 
-(2, 3) \times 2 = (4, 6)
+(2, 3) * 2 = (4, 6)
 
 This means stretching or shrinking the space.
 
