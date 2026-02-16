@@ -110,6 +110,13 @@ This is called the **trivial solution**.
 
 If this is the only solution → the vectors are independent.
 
+**OR:**
+
+A set of vectors is linearly independent if:
+
+None of the vectors can be written as a linear combination of the others.
+
+
 ---
 
 ### Linear Dependence
