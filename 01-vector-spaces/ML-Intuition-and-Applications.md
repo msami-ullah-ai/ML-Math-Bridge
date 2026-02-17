@@ -1,4 +1,4 @@
-# 🌍 How Vector Space Concepts Power Real-World Machine Learning
+#  How Vector Space Concepts Power Real-World Machine Learning
 
 This document connects **all topics of this chapter** to how machine learning models
 actually work in the real world.
