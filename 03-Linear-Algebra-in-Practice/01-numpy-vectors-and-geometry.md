@@ -114,7 +114,7 @@ np.log(x)
 
 ### Rule of thumb
 
-> ❌ Never use loops if a NumPy ufunc exists
+> Never use loops if a NumPy ufunc exists
 
 ---
 
