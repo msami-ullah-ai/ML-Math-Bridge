@@ -261,4 +261,4 @@ Shearing does **not** preserve angles.
 ## Final One-Line Summary
 
 Linear transformations reshape the grid.  
-Stretching changes lengths, rotation changes direction, and shearing slants the grid — but all preserve straight lines and the origin.
+Stretching changes lengths, rotation changes direction, and shearing slants the grid, but all preserve straight lines and the origin.
