@@ -66,7 +66,7 @@ Determinants are therefore not just algebraic expressions — they describe geom
 
 ---
 
-## 2. Classical Way #1 — Permutation Formula
+## 2. Classical Way No.1 — Permutation Formula
 
 The theoretical definition of the determinant is:
 
