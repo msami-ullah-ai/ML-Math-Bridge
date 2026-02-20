@@ -122,7 +122,7 @@ This makes the permutation formula computationally useless for large matrices.
 
 ---
 
-## 3. Classical Way #2 — Recursive (Cofactor Expansion)
+## 3. Classical Way No. 2 — Recursive (Cofactor Expansion)
 
 Instead of summing over all permutations, we use:
 
