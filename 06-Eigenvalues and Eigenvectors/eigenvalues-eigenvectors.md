@@ -1,16 +1,8 @@
-## 1. What is an Eigenvector?
+## 1. Basic Idea
 
-An **eigenvector** is a vector that:
+Eigenvector is a vector which maintains its direction after undergoing a linear transformation.
 
-> maintains its direction after undergoing a linear transformation.
-
-This means:
-
-When a vector **v** is multiplied by matrix **A**,
-
-- it may get stretched  
-- it may get shrunk  
-- but it does **not change direction**
+Eigenvalue is the scalar value by which eigenvector gets multiplied during linear transformation.
 
 Mathematically:
 
@@ -18,59 +10,46 @@ $$
 Av = \lambda v \quad (v \neq 0)
 $$
 
----
+This means:
 
-## 2. What is an Eigenvalue?
+When vector **v** is multiplied by matrix **A**,
 
-The **scalar value** by which the eigenvector gets stretched or shrunk is called the:
+- it may get stretched  
+- it may get shrunk  
+- but does NOT change direction
 
-> **Eigenvalue (λ)**
-
-So in:
-
-$$
-Av = \lambda v
-$$
+So:
 
 - **v** → eigenvector  
 - **λ** → eigenvalue  
 
-This equation says:
+Matrix multiplication just scales the vector.
 
-Matrix multiplication **just scales the vector**  
-(No rotation ❌ No bending ❌ No direction change ❌)
-
----
-
-## 3. Why Are Eigenvalues Important?
-
-Because they help:
-
-> Turn complicated matrices into diagonal ones.
-
-If the basis vectors of a coordinate system are eigenvectors of a matrix:
-
-- Transformation becomes **pure scaling**
-- No mixing of directions
-- Matrix becomes **diagonal**
+No rotation  
+No bending  
+No directional change  
 
 ---
 
-## IMPORTANT IDEA
+## 2. Why Eigenvalues are Powerful?
 
-A matrix becomes diagonal **when it is written in a coordinate system formed by its eigenvectors**.
+Eigenvalues are powerful because:
 
-Diagonal matrix means:
+> They help turn complicated matrices into diagonal ones.
 
-- Each direction is scaled independently
-- No direction affects the other
-- No mixing of coordinates
+If basis vectors are eigenvectors then:
+
+- transformation becomes pure scaling along each basis  
+- no mixing of directions  
+- matrix becomes diagonal  
+
+That is why diagonal matrices are closely related to eigenvectors.
 
 ---
 
-## 4. Rewriting the Eigenvalue Equation
+## 3. Rewriting the Equation
 
-Start with:
+Start from:
 
 $$
 Av = \lambda v
@@ -82,14 +61,30 @@ $$
 Av - \lambda v = 0
 $$
 
-To make operations compatible  
-(matrix − matrix), rewrite:
+But:
+
+- $Av$ → matrix × vector  
+- $\lambda v$ → scalar × vector  
+
+We cannot subtract them directly in matrix form.
+
+So rewrite:
 
 $$
 \lambda v = (\lambda I)v
 $$
 
-So:
+where:
+
+$$
+\lambda I =
+\begin{bmatrix}
+\lambda & 0 \\
+0 & \lambda
+\end{bmatrix}
+$$
+
+Now:
 
 $$
 Av - (\lambda I)v = 0
@@ -103,12 +98,12 @@ $$
 
 ---
 
-## 5. What Does This Mean?
+## 4. What Does This Mean?
 
 We are looking for:
 
 > A non-zero vector **v** such that  
-> the matrix \(A - λ I\) sends it to zero.
+> the matrix $(A - \lambda I)$ sends it to zero.
 
 i.e.
 
@@ -118,19 +113,19 @@ $$
 
 ---
 
-## 6. When Does This Have Non-Zero Solution?
+## 5. General System Idea
 
-Consider general system:
+Consider:
 
 $$
 Bx = 0
 $$
 
-- If $$\det(B) \neq 0$$  
-  → only solution is $$x = 0$$
+- If $\det(B) \neq 0$  
+  → only solution is $x = 0$
 
-- If $$\det(B) = 0$$  
-  → infinitely many solutions (non-zero exist)
+- If $\det(B) = 0$  
+  → infinitely many solutions exist
 
 Eigenvectors must be non-zero.
 
@@ -142,7 +137,7 @@ $$
 
 ---
 
-## 7. Characteristic Equation
+## 6. Characteristic Equation
 
 The equation:
 
@@ -150,13 +145,11 @@ $$
 \det(A - \lambda I) = 0
 $$
 
-is called the:
+gives possible values of λ.
 
-> **Characteristic Equation**
+This is called the:
 
-Its solutions give:
-
-> **Possible values of λ (Eigenvalues)**
+> Characteristic Equation
 
 Define:
 
@@ -164,16 +157,16 @@ $$
 p(\lambda) = \det(A - \lambda I)
 $$
 
-This is called the:
+This is called:
 
-> **Characteristic Polynomial**
+> Characteristic Polynomial
 
 Roots of this polynomial  
 = Eigenvalues
 
 ---
 
-## 8. After Finding Eigenvalues — Find Eigenvectors
+## 7. After Finding Eigenvalues
 
 For each eigenvalue λ:
 
@@ -183,9 +176,17 @@ $$
 (A - \lambda I)v = 0
 $$
 
-All solutions of this equation form the:
+Solutions of this equation are eigenvectors.
 
-> **Eigenspace**
+---
+
+## 8. Important Fact
+
+A single eigenvalue can be associated with:
+
+> Multiple eigenvectors
+
+Because solutions of $(A - \lambda I)v = 0$ form a space.
 
 ---
 
@@ -193,32 +194,20 @@ All solutions of this equation form the:
 
 Eigenspace =
 
-> Set of all vectors that satisfy  
-> the eigenvalue equation for a given λ
+> Set of all possible vectors that satisfy  
+> the eigenvalue equation for a given λ.
 
-It contains:
+It includes:
 
 - infinitely many vectors  
-- all pointing in the same direction  
-- including zero vector
+- zero vector  
+- all vectors in same direction
 
-But:
-
-Eigenvectors = **non-zero vectors** inside this space.
+Eigenvectors = non-zero vectors in eigenspace.
 
 ---
 
-## 10. Important Fact
-
-A single eigenvalue can have:
-
-> Multiple eigenvectors
-
-(because eigenspace contains infinitely many vectors)
-
----
-
-## 11. Special Case: Diagonal Matrix
+## 10. Special Case: Diagonal Matrix
 
 For a diagonal matrix:
 
@@ -233,11 +222,11 @@ $$
 - Eigenvalues = diagonal entries  
   → 5, −4, 2
 
-- Standard basis vectors are eigenvectors
+- Basis vectors are eigenvectors.
 
 ---
 
-## 12. Example
+## 11. Example
 
 Let:
 
@@ -268,12 +257,12 @@ $$
 
 So:
 
-- **u** is eigenvector  
-- **λ = 3** is eigenvalue
+- u is eigenvector  
+- 3 is eigenvalue  
 
 ---
 
-## 13. Choosing New Basis as Eigenvectors
+## 12. Choosing New Basis as Eigenvectors
 
 Let:
 
@@ -291,12 +280,12 @@ $$
 Au_2 = 1u_2
 $$
 
-So in this new basis:
+Expressed in this new basis:
 
-- First direction scales by 3
-- Second direction scales by 1
+- first direction scales by 3  
+- second direction scales by 1  
 
-Matrix becomes:
+So matrix becomes:
 
 $$
 \begin{bmatrix}
@@ -305,7 +294,7 @@ $$
 \end{bmatrix}
 $$
 
-Diagonal!
+Diagonal.
 
 ---
 
@@ -313,10 +302,10 @@ Diagonal!
 
 To simplify (diagonalize) a matrix:
 
-- Find eigenvalues  
-- Find eigenvectors  
-- Use eigenvectors as basis  
+1. Find eigenvalues  
+2. Find eigenvectors  
+3. Use eigenvectors as basis  
 
 Then:
 
-> The matrix becomes diagonal in that coordinate system.
+> The matrix becomes diagonal when written in the coordinate system formed by its eigenvectors.
