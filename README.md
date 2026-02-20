@@ -84,12 +84,14 @@ This repo tracks that journey from a **student’s perspective**.
 │   ├── 04-reflection.md
 │   ├── 05-how-linear-transformations-scale-area.md
 │   └── 06-determinants-area-and-orientation.md
-|
-├──05-matrices-and-equations/
 │
-|   ├──01-row-echelon-form-and-gaussian-elimination.md
-|   ├──02-Decomposition.md
-└── 03-determinants-in-practice.md
+├── 05-matrices-and-equations/
+│   ├── 01-row-echelon-form-and-gaussian-elimination.md
+│   ├── 02-Decomposition.md
+│   └── 03-determinants-in-practice.md
+│
+└── 06-Eigenvalues and Eigenvectors/
+    └── eigenvalues-eigenvectors.md
 ```
 
 Each file focuses on:
