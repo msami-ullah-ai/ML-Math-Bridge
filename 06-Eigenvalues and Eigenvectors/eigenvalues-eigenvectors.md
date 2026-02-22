@@ -55,7 +55,7 @@ $$
 Av = \lambda v
 $$
 
-Bring all terms to one side:
+Bring all the terms to one side:
 
 $$
 Av - \lambda v = 0
