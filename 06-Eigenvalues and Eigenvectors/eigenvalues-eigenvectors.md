@@ -190,7 +190,7 @@ Because solutions of $(A - \lambda I)v = 0$ form a space.
 
 ---
 
-## 9. Eigenspace
+## 9. Eigenspaces
 
 Eigenspace =
 
