@@ -207,7 +207,7 @@ Eigenvectors = non-zero vectors in eigenspace.
 
 ---
 
-## 10. Special Case: Diagonal Matrix
+## 10. Case of Diagonal Matrix
 
 For a diagonal matrix:
 
