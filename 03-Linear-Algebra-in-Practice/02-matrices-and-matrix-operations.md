@@ -86,7 +86,7 @@ Most systems (and NumPy by default) use **row-major ordering**.
 
 ### What it means
 
-- Rows are stored **one after another**
+- Rows are stored **one after the another**
 - Elements of the same row are **next to each other in memory**
 
 ### Index Transformation
