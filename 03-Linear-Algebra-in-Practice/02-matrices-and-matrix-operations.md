@@ -54,7 +54,7 @@ $$
 - The output is a **weighted sum of the columns of A**
 
 \[
-Ax = x_1 A_1 + x_2 A_2 + \dots + x_n A_n
+Ax = x1A1 + x2A2 + \dots + x_n A_n
 \]
 
 ### Column Space
