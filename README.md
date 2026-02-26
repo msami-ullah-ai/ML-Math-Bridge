@@ -56,48 +56,48 @@ This repo tracks that journey from a **student’s perspective**.
 ├── README.md
 │
 ├── 01-vector-spaces/
-│ ├── 01-feature-scaling-intuition.md
-│ ├── 02-vectors-and-data.md
-│ ├── 03-vector-spaces.md
-│ ├── 04-linear-combinations.md
-│ ├── 05-span.md
-│ ├── 06-bases.md
-│ └── ML-Intuition-and-Applications.md
+│   ├── 01-feature-scaling-intuition.md
+│   ├── 02-vectors-and-data.md
+│   ├── 03-vector-spaces.md
+│   ├── 04-linear-combinations.md
+│   ├── 05-span.md
+│   ├── 06-bases.md
+│   └── ML-Intuition-and-Applications.md
 │
 ├── 02-geometric-structure-of-vector-spaces/
-│ ├── 01-norms.md
-│ ├── 02-inner-product-norms-similarity.md
-│ ├── 03-interpretation-of-vector-products.md
-│ ├── 04-orthogonal-and-orthonormal-bases.md
-│ ├── 05-gram-schmidt-process.md
-│ └── ML-Intuition-and-Applications.md
+│   ├── 01-norms.md
+│   ├── 02-inner-product-norms-similarity.md
+│   ├── 03-interpretation-of-vector-products.md
+│   ├── 04-orthogonal-and-orthonormal-bases.md
+│   ├── 05-gram-schmidt-process.md
+│   └── ML-Intuition-and-Applications.md
 │
 ├── 03-linear-algebra-in-practice/
-│ ├── 01-numpy-vectors-and-geometry.md
-│ └── 02-matrices-and-matrix-operations.md
+│   ├── 01-numpy-vectors-and-geometry.md
+│   └── 02-matrices-and-matrix-operations.md
 │
 ├── 04-linear-transformations/
-│ ├── 01-linear-transformations-intuition-and-matrix.md
-│ ├── 02-invertible-linear-transformations.md
-│ ├── 03-linear-transformations-in-euclidean-plane.md
-│ ├── 04-stretching-rotation-shearing.md
-│ ├── 04-reflection.md
-│ ├── 05-how-linear-transformations-scale-area.md
-│ └── 06-determinants-area-and-orientation.md
+│   ├── 01-linear-transformations-intuition-and-matrix.md
+│   ├── 02-invertible-linear-transformations.md
+│   ├── 03-linear-transformations-in-euclidean-plane.md
+│   ├── 04-stretching-rotation-shearing.md
+│   ├── 04-reflection.md
+│   ├── 05-how-linear-transformations-scale-area.md
+│   └── 06-determinants-area-and-orientation.md
 │
 ├── 05-matrices-and-equations/
-│ ├── 01-row-echelon-form-and-gaussian-elimination.md
-│ ├── 02-decomposition.md
-│ └── 03-determinants-in-practice.md
+│   ├── 01-row-echelon-form-and-gaussian-elimination.md
+│   ├── 02-decomposition.md
+│   └── 03-determinants-in-practice.md
 │
 ├── 06-eigenvalues-and-eigenvectors/
-│ └── eigenvalues-eigenvectors.md
+│   └── eigenvalues-eigenvectors.md
 │
 └── 07-matrix-factorization/
-├── 01-adjoint-and-orthogonal-transformations.md
-├── 02-self-adjoint-transformations.md
-├── 03-spectral-decomposition-theorem.md
-└── 04-rayleigh-quotient-and-pca-connection.md
+    ├── 01-adjoint-and-orthogonal-transformations.md
+    ├── 02-self-adjoint-transformations.md
+    ├── 03-spectral-decomposition-theorem.md
+    └── 04-rayleigh-quotient-and-pca-connection.md
 ```
 
 Each file focuses on:
