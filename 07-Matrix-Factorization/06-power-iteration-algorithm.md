@@ -92,13 +92,13 @@ $$
 A^k x = n_1 \lambda_1^k u_1 + n_2 \lambda_2^k u_2 + \dots
 $$
 
-Since \( |\lambda_1| \) is largest:
+Since λ is largest:
 
 $$
 |\lambda_1|^k \text{ dominates}
 $$
 
-So as \( k \to \infty \):
+So as k approaches infinity:
 
 $$
 A^k x \approx n_1 \lambda_1^k u_1
@@ -114,44 +114,20 @@ Meaning:
 
 We only care about **direction**, not magnitude.
 
-Divide by the largest growing term:
+Start with:
 
-$$
-\frac{A^k x}{\lambda_1^k}
-=
-n_1 u_1
-+
-n_2 \left(\frac{\lambda_2}{\lambda_1}\right)^k u_2
-+
-\dots
-$$
+A^kx = n1​λ1^k​u1​ +n 2​λ2^k​u2​+…
 
-Since:
+<img width="476" height="250" alt="image" src="https://github.com/user-attachments/assets/d60a59c0-42e6-4a76-bd9e-f3bda5ace70f" />
 
-$$
-\left| \frac{\lambda_2}{\lambda_1} \right| < 1
-$$
-
-All other terms go to zero as \( k \to \infty \).
-
-So:
-
-$$
-\lim_{k \to \infty}
-\frac{A^k x}{\lambda_1^k}
-=
-n_1 u_1
-$$
-
-We get the dominant eigenvector direction.
 
 ---
 
-## 6. Removing Need to Know \( \lambda_1 \)
+## 6. Removing Need to Know λ
 
-We don’t know \( \lambda_1 \) in advance.
+We don’t know λ in advance.
 
-Instead of dividing by \( \lambda_1^k \), we normalize at every step.
+Instead of dividing by λ, we normalize at every step.
 
 Algorithm step becomes:
 
@@ -177,7 +153,7 @@ $$
 
 Power iteration works if:
 
-- \( |\lambda_1| > |\lambda_2| \)
+- λ_1 > λ_2
 - Starting vector has non-zero component in direction \( u_1 \)
 
 Meaning:
