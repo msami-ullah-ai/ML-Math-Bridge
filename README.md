@@ -98,6 +98,8 @@ This repo tracks that journey from a **student’s perspective**.
     ├── 02-self-adjoint-transformations.md
     ├── 03-spectral-decomposition-theorem.md
     └── 04-rayleigh-quotient-and-pca-connection.md
+    └── 05-singular-value-decomposition.md
+    └── 06-power-iteration-method.md
 ```
 
 Each file focuses on:
