@@ -23,7 +23,7 @@ Traditional approach:
    to get eigenvalues.
 
 2. Then solve  
-   (A−λI)x = 0
+   (A−λI) x = 0
    to get eigenvectors.
 
 Problems:
@@ -92,7 +92,7 @@ $$
 A^k x = n_1 \lambda_1^k u_1 + n_2 \lambda_2^k u_2 + \dots
 $$
 
-Since λ is largest:
+Since λ is the largest:
 
 $$
 |\lambda_1|^k \text{ dominates}
