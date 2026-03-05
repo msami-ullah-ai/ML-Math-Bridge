@@ -18,7 +18,7 @@ So SVD breaks a matrix into:
 
 > Rotate → Stretch → Rotate
 
-Matrix type does not matter. It works for **any matrix** (square or rectangular).
+Matrix type does not matter. It works for **any matrix** .
 
 ---
 
