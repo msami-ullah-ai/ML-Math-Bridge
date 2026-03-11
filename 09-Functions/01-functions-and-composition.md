@@ -1,2 +1,2 @@
 Functions can be viewed as transformations 
-Content coming soon
+Content is coming soon
