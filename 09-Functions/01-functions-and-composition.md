@@ -113,7 +113,7 @@ Range is always a **subset of the codomain**.
 
 # 5. Types of Functions
 
-## Injective Function (One-to-One)
+## Injective Function (One to One)
 
 A function is **injective** if different inputs produce different outputs.
 
