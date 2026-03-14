@@ -1,5 +1,4 @@
 # Topology Foundations for Machine Learning
-## Chapter Summary — Sets, Sequences, Bounds, and Compactness
 
 This section builds the **mathematical foundation required for optimization**, which is the core process behind **training machine learning models**.
 
