@@ -93,14 +93,24 @@ This repo tracks that journey from a **student’s perspective**.
 ├── 06-eigenvalues-and-eigenvectors/
 │   └── eigenvalues-eigenvectors.md
 │
-└── 07-matrix-factorization/
-    ├── 01-adjoint-and-orthogonal-transformations.md
-    ├── 02-self-adjoint-transformations.md
-    ├── 03-spectral-decomposition-theorem.md
-    └── 04-rayleigh-quotient-and-pca-connection.md
-    └── 05-singular-value-decomposition.md
-    └── 06-power-iteration-method.md
-```
+├── 07-matrix-factorization/
+│   ├── 01-adjoint-and-orthogonal-transformations.md
+│   ├── 02-self-adjoint-transformations.md
+│   ├── 03-spectral-decomposition-theorem.md
+│   ├── 04-rayleigh-quotient-and-pca-connection.md
+│   ├── 05-singular-value-decomposition.md
+│   └── 06-power-iteration-algorithm.md
+│
+├── 09-functions/
+│   └── 01-functions-and-composition.md
+│
+├── 10-numbers-sequences-series/
+│   └── 01-sequences-and-series.md
+│
+└── 11-topology-limits-and-continuity/
+    └── 01-sets-sequences-bounds-compactness.md
+
+---
 
 Each file focuses on:
 
