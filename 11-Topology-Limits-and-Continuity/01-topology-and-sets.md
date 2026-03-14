@@ -547,5 +547,5 @@ Machine Learning Training
 
 
 ---
-The model produces predictions:
+The model produces predictions
 
