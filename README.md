@@ -3,7 +3,6 @@
 ### *Intuition-first Mathematics for Machine Learning*
 
 > A clean, student-built repository that bridges **linear algebra → geometry → machine learning**,
-> following *Mathematics of Machine Learning* by **Tivadar Danka** 
 
 ---
 
