@@ -1,8 +1,6 @@
 # Vector Spaces
 
-In machine learning, almost everything is about turning data into vectors and working inside a space where math becomes easy.
-
-A **vector space** is that place.
+A vector space is a set of vectors that is closed under addition and scalar multiplication. This means that if you perform these operations on any vectors from the set, the result must remain within that same set. Additionally, the set must contain a zero vector and obey the standard axioms (rules) of algebra.
 
 ---
 
