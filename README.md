@@ -129,10 +129,10 @@ Most ML learners face one of two problems:
 
 This project aims to sit **in the middle**:
 
-* ❌ No heavy proofs
-* ❌ No buzzword-only explanations
-* ✅ Strong intuition
-* ✅ ML-focused motivation
+❌ No heavy proofs
+❌ No buzzword-only explanations
+✅ Strong intuition
+✅ ML-focused motivation
 
 ---
 
@@ -158,37 +158,40 @@ Computer Science undergraduate.
   
 ---
 
-## 🔗 Connect with Me
+## 🌐 Connect with Me
 
-If you’re also learning **machine learning mathematics** or want to discuss concepts, feel free to connect:
+- 🧠 **Kaggle**  
+  https://www.kaggle.com/samiullah9  
+  _Notebooks, experiments, and ML practice_
 
-- 🧠 **Kaggle** — https://www.kaggle.com/samiullah9  
-  *(Notebooks, experiments, and ML practice)*
+- 💼 **LinkedIn**  
+  https://www.linkedin.com/in/sami-ullah-ai/  
+  _Academic journey, ML learning, and professional updates_
 
-- 💼 **LinkedIn** — https://www.linkedin.com/in/sami-ullah-ai/  
-  *(Academic journey, ML learning, and professional updates)*
+- 👥 **Facebook Group**  
+  https://www.facebook.com/groups/mathformachinelearning/  
+  _Community discussions on math for ML_
 
-- 👥 **Facebook Group** — https://www.facebook.com/groups/mathformachinelearning/  
-  *(Community discussions on math for ML)*
+---
 
-I’m always open to **learning together and constructive discussions**.
+## 🤝 Let's Collaborate
 
+I'm always open to **learning together** and having **constructive discussions**.
+
+---
 
 ## ⭐ Support the Project
 
 If this repository helps you:
 
-* ⭐ Star it
-* 🍴 Fork it
-* 💬 Share it with other students
+- ⭐ Star it  
+- 🍴 Fork it  
+- 📢 Share it with other students  
 
-Stars help this reach more learners like you.
+> ⭐ Stars help this reach more learners like you!
 
 ---
 
 ## ⚠️ Disclaimer
 
-This repository contains **original notes and explanations** inspired by the reference book.
-It does **not reproduce copyrighted content**.
-
----
+This repository contains **original notes and explanations** inspired by reference materials.
