@@ -33,7 +33,7 @@ The goal is simple:
 This repository follows the structure and philosophy of:
 
 **📘 *Mathematics of Machine Learning***
-by **Tivadar Danka** (Packt Publishing)
+by **Tivadar Danka** 
 
 The book focuses on:
 
@@ -42,7 +42,7 @@ The book focuses on:
 * Multivariable Calculus
 * Probability Theory
 
-This repo tracks that journey from a **student’s perspective**.
+This repo tracks that journey from a **student’s perspective**. Following exact sequence, I've covered concepts in clear understandable way.
 
 ---
 
