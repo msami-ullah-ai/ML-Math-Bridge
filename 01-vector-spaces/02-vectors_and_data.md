@@ -11,6 +11,10 @@ For example, in the Iris dataset, each flower is stored as:
 So one flower becomes a vector with 4 feature values.  
 The dataset becomes a collection of such vectors.
 
+## Concept Behind Vectors
+
+In mathematics, a vector isn’t just an arrow or a list of numbers; it is anything you can add together and scale with a number. 
+
 ## Features vs Labels
 
 **Features** are the input values (measurements of the flower).  
