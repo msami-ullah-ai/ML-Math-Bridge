@@ -87,6 +87,28 @@ This repository follows a deliberate structure:
 
 ---
 
+---
+
+## 📚 References
+
+This repository is inspired by and loosely structured around:
+
+- **Mathematics for Machine Learning** — Tivandar Danka  
+
+<br>
+
+> The author presents complex mathematical ideas with remarkable clarity and intuition, making advanced concepts more accessible to learners.  
+> His approach to building understanding through structure and insight has significantly influenced the way this repository is organized.
+
+<br>
+
+> Note:  
+> All explanations, breakdowns, and examples in this repository are **independently written and simplified** for learning purposes.  
+> This is a **reconstructed learning resource**, not a reproduction of the original material.
+
+
+---
+
 ## 🗂 Repository Structure So Far
 
 ```
