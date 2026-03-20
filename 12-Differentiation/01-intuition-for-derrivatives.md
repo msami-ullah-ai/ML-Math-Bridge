@@ -5,7 +5,7 @@ We will go step by step, in a **clear and simple way**, so nothing feels confusi
 
 
 
-# 🧠 1. What is Differentiation?
+# 1. What is Differentiation?
 
 Differentiation is about answering one question:
 
