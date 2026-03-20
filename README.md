@@ -36,21 +36,54 @@ This repository is built for:
 
 ---
 
-## 📚 Reference Book
+## 🧭 What You’ll Find Here
 
-This repository follows the structure and philosophy of:
+### 📘 Linear Algebra Foundations
+- Vectors, spaces, basis, transformations  
+- Eigenvalues & eigenvectors with intuition  
 
-**📘 *Mathematics of Machine Learning***
-by **Tivadar Danka** 
+<br>
 
-The book focuses on:
+### 📐 Geometric Understanding
+- Visual meaning of algebraic operations  
+- Connecting equations to shapes  
 
-* Linear Algebra
-* Calculus
-* Multivariable Calculus
-* Probability Theory
+<br>
 
-This repo tracks that journey from a **student’s perspective**. Following exact sequence, I've covered concepts in clear understandable way.
+### 📊 Calculus for ML
+- Derivatives, gradients, chain rule  
+- Optimization intuition  
+
+<br>
+
+### 🔗 Bridging to Machine Learning
+- Why math matters in ML models  
+- Connecting **theory → real ML concepts**
+
+---
+
+## ⚙️ Learning Approach
+
+This repository follows a deliberate structure:
+
+1. Start with **intuition (WHY)**
+2. Move to **step-by-step math (HOW)**
+3. Reinforce with **examples**
+4. Connect to **ML applications (WHERE)**
+
+<br>
+
+> 💡 Think of it as:  
+> **“Explain it like I’m learning it for the first time — but properly.”**
+
+---
+
+## 🚀 Why This Repo Stands Out
+
+- ✔️ Built during **real learning (not after mastery)**
+- ✔️ Focuses on **actual student pain points**
+- ✔️ Avoids unnecessary complexity
+- ✔️ Designed for **deep understanding + practical use**
 
 ---
 
@@ -119,87 +152,27 @@ This repo tracks that journey from a **student’s perspective**. Following exac
 
 ---
 
+
 Each file focuses on:
 
-* Core definitions
-* Intuition and mental models
-* ML relevance
-* Simple explanations in clean Markdown
+-> Core definitions
+-> Intuition and mental models
+-> ML relevance
+-> Simple explanations in clean Markdown
 
----
 
-## 🧠 Philosophy
+🤝 Contributions
 
-Most ML learners face one of two problems:
+This is primarily a personal learning repository, but:
 
-1. Math that is **too abstract**
-2. ML that is **too hand-wavy**
+- Suggestions  
+- Corrections  
+- Improvements  
 
-This project aims to sit **in the middle**:
+are always welcome.
 
-❌ No heavy proofs
-❌ No buzzword-only explanations
-✅ Strong intuition
-✅ ML-focused motivation
 
----
+⭐ Final Note
 
-## 🛣 Roadmap (Coming Next)
+If this repository helps you understand something that once felt confusing, then it has done its job.
 
-* Matrices as linear transformations
-* Rank, null space, and information loss
-* Eigenvalues & eigenvectors
-* PCA intuition
-* Least squares & projections
-* Optimization foundations
-
----
-
-## 🎓 About the Author
-
-**Mohammad Sami Ullah**  
-Computer Science undergraduate.
-
-- Focused on building strong foundations in machine learning  
-- Actively working with mathematics that underpins modern ML models  
-- Interested in building models with a clear understanding of how they work
-  
----
-
-## 🌐 Connect with Me
-
-- 🧠 **Kaggle**  
-  https://www.kaggle.com/samiullah9  
-  _Notebooks, experiments, and ML practice_
-
-- 💼 **LinkedIn**  
-  https://www.linkedin.com/in/sami-ullah-ai/  
-  _Academic journey, ML learning, and professional updates_
-
-- 👥 **Facebook Group**  
-  https://www.facebook.com/groups/mathformachinelearning/  
-  _Community discussions on math for ML_
-
----
-
-## 🤝 Let's Collaborate
-
-I'm always open to **learning together** and having **constructive discussions**.
-
----
-
-## ⭐ Support the Project
-
-If this repository helps you:
-
-- ⭐ Star it  
-- 🍴 Fork it  
-- 📢 Share it with other students  
-
-> ⭐ Stars help this reach more learners like you!
-
----
-
-## ⚠️ Disclaimer
-
-This repository contains **original notes and explanations** inspired by reference materials.
