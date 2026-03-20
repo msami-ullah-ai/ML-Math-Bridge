@@ -1,7 +1,9 @@
 # 📐 ML Math Bridge  
-### *Intuition-First Mathematics for Machine Learning*
+### Intuition-First Mathematics for Machine Learning
 
-> A structured, student-driven repository bridging **Linear Algebra → Calculus → Machine Learning**
+> A systematically organized repository aimed at developing a strong mathematical foundation for machine learning,  
+> connecting **Linear Algebra, Calculus, Probability and their applications in ML** through clear and intuitive explanations.
+> with a focus on clarity, conceptual understanding, and practical relevance.
 
 ---
 
