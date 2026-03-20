@@ -5,11 +5,13 @@ We will go step by step, in a **clear and simple way**, so nothing feels confusi
 
 
 
+
 # 1. What is Differentiation?
 
 Differentiation is about answering one question:
 
 > **How fast is something changing at a particular point?**
+
 
 
 
@@ -26,6 +28,7 @@ In math:
 
 
 
+
 # 🔹 2. From Average Change to Exact Change
 
 First, we understand **average change**:
@@ -38,9 +41,11 @@ This is the **slope of a line between two points** (secant line)
 
 
 
+
 ##  Problem
 
 This gives only **average behavior**, not exact behavior at one point.
+
 
 
 
@@ -60,6 +65,7 @@ $$
 
 
 
+
 ## Final Definition (Derivative)
 
 $$
@@ -68,9 +74,11 @@ $$
 
 
 
+
 ## Meaning
 
 > Derivative = slope of tangent line = exact rate of change
+
 
 
 
@@ -84,6 +92,7 @@ $$
 
 
 
+
 # 🔹 4. When Derivative Does NOT Exist
 
 Derivative fails when:
@@ -93,7 +102,9 @@ Derivative fails when:
 
 
 
+
 ## Example
+
 
 ### Function:
 $$
@@ -106,6 +117,7 @@ At \( x = 0 \):
 - Right slope = +1  
 
 Not equal → derivative does NOT exist
+
 
 
 
@@ -124,15 +136,18 @@ Derivative exists
 
 
 
+
 # 🔹 5. Differentiability = Smoothness
 
 > A function is differentiable if it has **no sharp corners**
 
 
 
+
 # 🔹 6. Different Forms of Derivative
 
 All of these are **same idea**, just different notation:
+
 
 
 
@@ -143,10 +158,12 @@ $$
 
 
 
+
 ### Form 2:
 $$
 \lim_{x \to x_0} \frac{f(x) - f(x_0)}{x - x_0}
 $$
+
 
 
 
@@ -157,9 +174,11 @@ $$
 
 
 
+
 ## Important
 
 > These are all the same — only variable names change
+
 
 
 
@@ -174,9 +193,11 @@ We need a way to **simplify calculations**
 
 
 
+
 # 🔹 8. Idea of Approximation
 
 > Approximation = value that is not exact, but very close
+
 
 
 
@@ -190,9 +211,11 @@ Actual value ≈ 1.105 → very close
 
 
 
+
 # 🔹 9. Local Approximation (VERY IMPORTANT)
 
 We approximate **near a point \( x_0 \)**
+
 
 
 
@@ -201,6 +224,7 @@ We approximate **near a point \( x_0 \)**
 Because:
 
 > Functions behave nicely when we zoom in
+
 
 
 
@@ -214,6 +238,7 @@ $$
 
 
 
+
 ## Meaning
 
 - \( f(x_0) \) → starting value  
@@ -222,9 +247,11 @@ $$
 
 
 
+
 ## Key Idea
 
 > New value ≈ old value + (slope × change)
+
 
 
 
@@ -245,6 +272,7 @@ Actual = 4.41 → very close
 
 
 
+
 # 🔹 11. The Big Theorem (Core Idea)
 
 A function is differentiable **if and only if**:
@@ -255,9 +283,11 @@ $$
 
 
 
+
 ## Meaning
 
 > Function = line + very small error
+
 
 
 
@@ -271,6 +301,7 @@ That “a” is the derivative
 
 
 
+
 # 🔹 12. What is the Small Error Term?
 
 $$
@@ -279,9 +310,11 @@ $$
 
 
 
+
 ## Meaning
 
 > Error becomes negligible as \( x \to x_0 \)
+
 
 
 
@@ -293,9 +326,11 @@ We use a **straight line approximation**
 
 
 
+
 # 🔹 14. Improving Approximation
 
 A line is good… but not perfect.
+
 
 
 
@@ -309,6 +344,7 @@ $$
 
 
 
+
 # 🔹 15. Taylor Theorem
 
 > A function can be written as:
@@ -319,9 +355,11 @@ $$
 
 
 
+
 ## Meaning
 
 > Function = polynomial + small error
+
 
 
 
@@ -335,11 +373,13 @@ $$
 
 
 
+
 # 🔹 17. Example: Exponential Function
 
 $$
 e^x = \sum_{k=0}^{\infty} \frac{x^k}{k!}
 $$
+
 
 
 
@@ -351,7 +391,9 @@ simple polynomial
 
 
 
+
 # 🔹 18. Final Big Picture
+
 
 
 
@@ -364,6 +406,7 @@ simple polynomial
 5. First → line (linear approximation)  
 6. Then → polynomial (Taylor expansion)  
 7. Derivatives build the approximation  
+
 
 
 
