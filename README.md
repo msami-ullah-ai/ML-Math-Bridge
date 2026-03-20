@@ -1,30 +1,38 @@
-# 📐 ML Math Bridge
+# 📐 ML Math Bridge  
+### *Intuition-First Mathematics for Machine Learning*
 
-### *Intuition-first Mathematics for Machine Learning*
-
-> A clean, student-built repository that bridges **linear algebra → geometry → machine learning**,
-
----
-
-## 🌟 What is this repository?
-
-**ML Math Bridge** is a structured collection of **clear, intuition-driven notes** built while studying the mathematical foundations of machine learning.
-
-This repo is **not a copy of the book**.
-It is a **learning companion** — rewritten explanations, simplified intuition, and clean summaries made by a student, for students.
-
-The goal is simple:
-
-> **Understand ML math deeply enough to reason, not memorize.**
+> A structured, student-driven repository bridging **Linear Algebra → Calculus → Machine Learning**
 
 ---
 
-## 🎯 Who is this for?
+## 🌟 Overview
 
-* Computer Science / AI / Data Science students
-* Beginners struggling with ML mathematics
-* Self-learners preparing for ML, DL, or AI research
-* Anyone who wants *clarity over formalism*
+**ML Math Bridge** is a carefully organized collection of **intuition-driven notes** designed to make the mathematics behind machine learning *clear, logical, and usable*.
+
+This repository is **not a textbook** and **not a copy of any book**.
+
+Instead, it is a **learning reconstruction** — where complex ideas are broken down into:
+
+- **Simple language**
+- **Step-by-step reasoning**
+- **Visual and geometric intuition**
+- **Exam- and application-focused explanations**
+
+<br>
+
+> 🎯 **Goal:**  
+> Move from **memorizing formulas** → to **understanding how and why they work**
+
+---
+
+## 🎯 Who This Is For
+
+This repository is built for:
+
+- 🎓 **Computer Science / AI / Data Science students**
+- 📉 **Beginners struggling with ML mathematics**
+- 📚 **Self-learners preparing for ML, DL, or research**
+- 🧠 Anyone who prefers **clarity, intuition, and reasoning over formal proofs**
 
 ---
 
