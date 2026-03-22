@@ -3,7 +3,7 @@
 Now that we understand **what derivatives are**, it’s time to see how they are actually **used in real problems**, especially in **Machine Learning**.
 
 This section is extremely important because:
-> This is where differentiation becomes **useful**, not just theoretically.
+> This is where differentiation becomes actual **useful**, not just theoretically.
 
 ---
 
