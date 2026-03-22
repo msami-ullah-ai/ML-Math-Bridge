@@ -9,7 +9,7 @@ This section is extremely important because:
 
 # 1. Why We Need Practical Differentiation
 
-Using the definition:
+Using the definition, we can have:
 
 $$
 f'(x) = \lim_{h \to 0} \frac{f(x+h) - f(x)}{h}
