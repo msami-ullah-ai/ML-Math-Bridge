@@ -1,7 +1,7 @@
 ## 1. Limits
 
 ### Definition (intuitive)
-lim (x → a) f(x) = L
+lim_(x → a) f(x) = L
 
 Meaning:
 When x is close to a, f(x) is close to L.
