@@ -4,7 +4,7 @@
 lim_(x → a) f(x) = L
 
 Meaning:
-When x is close to a, f(x) is close to L.
+When x is close to a then f(x) is close to L.
 
 ---
 
