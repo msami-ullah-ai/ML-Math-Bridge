@@ -4,7 +4,7 @@
 
 In machine learning, a **predictive model** can be viewed as a mathematical function.
 
-A model takes **input data** and produces an **output prediction**.
+A model takes **input data** and produces an **output-prediction**.
 
 Example models:
 
