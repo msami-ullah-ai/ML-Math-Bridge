@@ -2,7 +2,7 @@
 ### Intuition-First Mathematics for Machine Learning
 
 > A systematically organized repository aimed at developing a strong mathematical foundation for machine learning,  
-> connecting **Linear Algebra, Calculus, Probability and their applications in ML** through clear and intuitive explanations,
+> connecting **Linear Algebra, Calculus, Probability and their applications in Machine Learning** through clear and intuitive explanations,
 > with a strong emphasis on conceptual understanding and practical relevance.
 
 ---
